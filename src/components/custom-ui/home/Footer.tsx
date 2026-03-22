@@ -54,6 +54,7 @@ export function Footer() {
             alt="G3"
             width={60}
             height={30}
+            className="-ml-1"
           />
         </div>
         {/* {themeToggle} */}
@@ -88,6 +89,7 @@ export function Footer() {
             alt="G3"
             width={80}
             height={30}
+            className="-ml-1"
           />
         </div>
 

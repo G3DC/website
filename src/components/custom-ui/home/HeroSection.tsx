@@ -7,7 +7,7 @@ export function HeroSection() {
     <main className="relative flex flex-1 items-center justify-center overflow-hidden px-[calc(4vw+1rem)] pt-24 md:justify-start md:px-[calc(2.5vw+1.5rem)] md:pt-28">
       {/* Aperture — smaller, entrance + continuous float */}
       <motion.div
-        className="pointer-events-none absolute inset-0 md:inset-auto md:top-[92px] md:bottom-[56px] md:right-[2.5%] md:flex md:w-[46%] md:items-center md:justify-center"
+        className="pointer-events-none absolute inset-0 flex items-center justify-center md:inset-auto md:top-[92px] md:bottom-[56px] md:right-[2.5%] md:w-[46%]"
         initial={{ opacity: 0, scale: 0.97 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.6, ease: [0.25, 0.1, 0.25, 1], delay: 0.15 }}
